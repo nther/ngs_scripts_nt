@@ -1,5 +1,5 @@
 #!/bin/bash
-grep -c "^>" $@
+grep -c "^>" FASTA
 
 echo "Done"
 

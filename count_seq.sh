@@ -1,2 +1,3 @@
 #!/bin/bash
-grep -c "^>" $1
+# USAGE: bash count_seq.sh FASTA...
+grep -c "^>" $@
